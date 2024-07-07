@@ -1,31 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Website</title>
-    <link rel="stylesheet" href="/comptongardens/css/style.css">
-</head>
-<body>
-    <header>
-        <h1>Compton Gardens - Home</h1>
-        <nav>
-            <ul>
-                <li><a href="/comptongardens/">Home</a></li>
-                <li><a href="/comptongardens/about/">About</a></li>
-                <li><a href="/comptongardens/services/">Services</a></li>
-
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>About This Site</h2>
-            <p>This is the main page of my simple website hosted on GitHub Pages.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 My Simple Website</p>
-    </footer>
-</body>
-</html>
+<!-- index.html -->
+{% extends "base.html" %}
+{% block title %}Home - My Website{% endblock %}
+{% block content %}
+<h1>Welcome to My Website</h1>
+<p>This is the homepage content.</p>
+{% endblock %}
